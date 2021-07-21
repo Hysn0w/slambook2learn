@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HelloSLAM",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-40639b648cbe1ac8fe9e.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helloSLAM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helloSLAM-Debug-da4fd91595ccaf81fb26.json",
+					"name" : "helloSLAM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello_shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello_shared-Debug-3d6ce1eadadc70b7675c.json",
+					"name" : "hello_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "useHello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-useHello-Debug-fcf8dd6355aaffa6e919.json",
+					"name" : "useHello",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/danc1nsn0w/Documents/SLAM/slambook2/ch2/build",
+		"source" : "/home/danc1nsn0w/Documents/SLAM/slambook2/ch2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
